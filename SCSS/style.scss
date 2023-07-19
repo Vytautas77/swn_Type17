@@ -1,3 +1,5 @@
+$LogoFont: 'Inconsolata', monospace;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,18 +7,20 @@
 body {
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
 width: 100%;
 height: 50px;
-background-color: aqua;
+background-color: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
+box-sizing: border-box;
     .logo {
         cursor: pointer;
         font-size: 70px;
-        font-family: 'Inconsolata', monospace;
+        font-family: $LogoFont;
     }
 }
 
