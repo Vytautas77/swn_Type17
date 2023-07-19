@@ -40,7 +40,27 @@ z-index: 10;
     }
 }
 .navBar {
-    display: none;
+display: none;
+}
+.navBar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.navBar ul li {
+    list-style: none;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    &:hover{
+        color: blue;
+        border-bottom: 1px solid blue;
+    }
 }
 .worldButton {
     cursor: pointer;
