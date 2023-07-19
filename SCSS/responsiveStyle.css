@@ -1,0 +1,23 @@
+@media screen and (min-width: 550px) {
+  .worldButton {
+    display: block;
+  }
+  .TitleGrid {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .titleNews {
+    display: block;
+  }
+  .title {
+    font-size: 80px;
+  }
+  .boxGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .boxinfoPlius {
+    display: block;
+  }
+  .asideGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=responsiveStyle.css.map */

@@ -22,31 +22,29 @@ box-sizing: border-box;
 position: fixed;
 top: 0;
 left: 0;
+z-index: 10;
     .logo {
         cursor: pointer;
         font-size: 70px;
         font-family: $LogoFont;
     }
 }
-
 .meniuButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     img {
         cursor: pointer;
         width: 30px;
     }
 }
-
-
-
-
-
-
-
-
 .navBar {
     display: none;
 }
 .worldButton {
+    cursor: pointer;
+    width: 30px;
     display: none;
 
 }

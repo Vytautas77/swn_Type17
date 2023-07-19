@@ -22,6 +22,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 header .logo {
   cursor: pointer;
@@ -29,6 +30,12 @@ header .logo {
   font-family: "Inconsolata", monospace;
 }
 
+.meniuButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .meniuButtons img {
   cursor: pointer;
   width: 30px;
@@ -39,5 +46,7 @@ header .logo {
 }
 
 .worldButton {
+  cursor: pointer;
+  width: 30px;
   display: none;
 }/*# sourceMappingURL=style.css.map */
